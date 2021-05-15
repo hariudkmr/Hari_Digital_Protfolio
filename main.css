@@ -1,4 +1,72 @@
+/*TOP BANNER*/
+
+#topimg {
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    background: #f7faf6 url(img/topimage.jpg) no-repeat;
+    color: #333;
+    background-size: cover;
+}
+
+#topimg h1 {
+    float: left;
+    margin: 10px 0 0 15px;
+    font-size: 150%;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+h1 {
+    margin-top: 10px;
+    padding: 0;
+    font-size: 140%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+    background: none;
+}
+
 h2 {
-    background-color: #607d8b;
-    color: #ffffff;
+    font-size: 120%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+}
+
+
+/*TOP NAVIGATIONY*/
+
+#navcontainer ul {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    margin: 0 0 20px 0;
+    font-size: 110%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background: #2c317c;
+    color: #333;
+}
+
+#navcontainer ul li {
+    display: inline;
+}
+
+#navcontainer ul li a {
+    float: left;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    background: #333866;
+    color: #fff;
+}
+
+#navcontainer ul li a:hover,
+#navcontainer ul li a#current {
+    background: #006eae;
+    color: #000;
 }
